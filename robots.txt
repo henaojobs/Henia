@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.henia.es/sitemap.xml
+Sitemap: https://henia.es/sitemap.xml

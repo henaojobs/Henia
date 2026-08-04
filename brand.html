@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Henia — Marca</title>
+<style>
+  :root{
+    --gold:#D1BF84; --charcoal:#282B30;
+    --purple:#604685; --purple-light:#694D91; --purple-dark:#4E396B;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Poppins','Segoe UI',system-ui,Arial,sans-serif;background:#f6f6f7;color:var(--charcoal);padding:40px}
+  h1{font-size:28px;margin-bottom:6px}
+  .sub{color:#777;margin-bottom:32px}
+  h2{font-size:14px;text-transform:uppercase;letter-spacing:1px;color:#999;margin:34px 0 14px}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:#fff;border:1px solid #e6e6e6;border-radius:16px;padding:28px;display:flex;flex-direction:column;align-items:center;gap:14px;min-height:220px;justify-content:center}
+  .card.dark{background:var(--charcoal)}
+  .card img{max-width:100%;max-height:150px}
+  .tag{font-size:12px;color:#999}
+  .card.dark .tag{color:#aaa}
+  .swatches{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:8px}
+  .sw{border-radius:12px;overflow:hidden;border:1px solid #e6e6e6}
+  .sw .fill{height:90px}
+  .sw .meta{padding:10px 12px;font-size:12px;background:#fff}
+  .sw .meta b{display:block;font-size:13px}
+  @media(max-width:800px){.cards{grid-template-columns:1fr}.swatches{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+  <h1>Identidad de marca · Henia</h1>
+  <p class="sub">Logo separado en isotipo, logotipo y lockup completo.</p>
+
+  <h2>Logo separado</h2>
+  <div class="cards">
+    <div class="card"><img src="assets/henia-icon.svg" alt="Isotipo"><span class="tag">Isotipo (solo símbolo)</span></div>
+    <div class="card"><img src="assets/henia-wordmark.svg" alt="Logotipo"><span class="tag">Logotipo (solo texto)</span></div>
+    <div class="card"><img src="assets/henia-logo.svg" alt="Lockup" style="max-height:200px"><span class="tag">Lockup completo</span></div>
+  </div>
+
+  <h2>Sobre fondo oscuro</h2>
+  <div class="cards">
+    <div class="card dark"><img src="assets/henia-icon.svg" alt="Isotipo"><span class="tag">Isotipo</span></div>
+    <div class="card dark"><img src="assets/henia-wordmark.svg" alt="Logotipo"><span class="tag">Logotipo</span></div>
+    <div class="card dark"><img src="assets/henia-logo.svg" alt="Lockup" style="max-height:200px"><span class="tag">Lockup</span></div>
+  </div>
+
+  <h2>Paleta</h2>
+  <div class="swatches">
+    <div class="sw"><div class="fill" style="background:#D1BF84"></div><div class="meta"><b>#D1BF84</b>Dorado</div></div>
+    <div class="sw"><div class="fill" style="background:#282B30"></div><div class="meta"><b>#282B30</b>Carbón</div></div>
+    <div class="sw"><div class="fill" style="background:#604685"></div><div class="meta"><b>#604685</b>Morado</div></div>
+    <div class="sw"><div class="fill" style="background:#694D91"></div><div class="meta"><b>#694D91</b>Morado claro</div></div>
+    <div class="sw"><div class="fill" style="background:#4E396B"></div><div class="meta"><b>#4E396B</b>Morado oscuro</div></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Temporales de trabajo
+.tmp/
+
+# Tooling de Claude Code (skills copiadas, no forman parte de la web)
+.claude/
+
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini

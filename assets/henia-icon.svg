@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Henia">
+  <!-- Barra izquierda -->
+  <rect x="52" y="24" width="44" height="192" fill="#694D91"/>
+  <!-- Barra derecha -->
+  <rect x="144" y="24" width="44" height="192" fill="#4E396B"/>
+  <!-- Flecha dorada (crossbar de la H, apunta a la izquierda) -->
+  <polygon points="156,52 156,188 96,120" fill="#D1BF84" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round"/>
+</svg>

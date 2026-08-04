@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" width="300" height="380" role="img" aria-label="Henia">
+  <!-- Isotipo -->
+  <g transform="translate(30,18)">
+    <rect x="52" y="24" width="44" height="192" fill="#694D91"/>
+    <rect x="144" y="24" width="44" height="192" fill="#4E396B"/>
+    <polygon points="156,52 156,188 96,120" fill="#D1BF84" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round"/>
+  </g>
+  <!-- Logotipo -->
+  <text x="150" y="345" text-anchor="middle"
+        font-family="'Poppins','Segoe UI',-apple-system,Arial,sans-serif"
+        font-size="82" font-weight="700" letter-spacing="-2" fill="#604685">Henia</text>
+</svg>
